@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Quiz Twilight</title>
+    <link href="style2.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.cdnfonts.com/css/twilight" rel="stylesheet">
+    
+  </head>
+  <body>
+   
+    <div class="bloque1">
+      <h1>Bienvenide a la trivia de Crepusculo </h1>
+      <h2>Escribe tu nombre</h2> 
+      <input type="text" id="nombre">
+      <button onclick="funcionIniciar()">Iniciar</button>
+      
+    </div>
+    <h2 id="demo" class="saludo"></h2>
+
+   
+    <div class="pregunta fondo">
+      <h3>Pregunta 1</h3>
+      <p>¿Que efecto tiene el sol en los vampiros?</p> <br>
+
+    
+      <label> <input type="radio" name="question1"> Se derriten <br> </label>
+      <label> <input type="radio" name="question1" id="correcta1"> Brillan <br> </label>
+      <label> <input type="radio" name="question1"> Se insolan<br></label>
+      <label> <input type="radio" name="question1"> Se queman </label> <br>
+      <button id="button1" onclick="funcionSiguiente1()">Siguiente</button>
+      
+    
+    </div>
+
+    <div class="pregunta fondo">
+    
+      <h3>Pregunta 2</h3>
+      <p>¿Como corren los vampiros?</p>
+
+      <label>
+      <input type="radio" name="question2">  Lentamente </label><br>
+      <label>
+      <input type="radio" name="question2">  No corren</label><br>
+      <label>
+      <input type="radio" name="question2"> Levitan</label><br>
+      <label>
+      <input type="radio" name="question2" id="correcta2"> Tan rapido que no se ven sus pies</label><br>
+      <button id="button2" onclick="funcionSiguiente2()">Siguiente</button>
+     
+      
+    </div>
+
+    <div class="pregunta fondo">
+      <h3>Pregunta 3</h3>
+      <p>¿Cual es la ciudad de origen de Bella?</p>
+    
+      <label> <input type="radio" name="question3"id="correcta3"> Forks <br> </label>
+      <label> <input type="radio" name="question3"> Spoons <br> </label>
+      <label> <input type="radio" name="question3"> Knives <br></label>
+      <label> <input type="radio" name="question3"> Keys </label><br>
+      <button id="button3" onclick="resultado()">Enviar y ver resultados</button>
+      
+    </div>
+    <div id="resultado" class="mensaje"></div>
+    <script src="script2.js"></script>
+  </body>
+</html>

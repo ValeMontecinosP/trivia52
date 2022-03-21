@@ -1,0 +1,62 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  width: 80%;
+  margin: 0 auto;
+  font-family: "Twilight", sans-serif;
+  background-image:url("Twilight.gif"); 
+  background-repeat:repeat;
+}
+.pregunta {
+  display: none;
+}
+#button1 {
+  margin-top: 5%;
+  padding: 1% 2%;
+}  
+
+#button2 {
+  margin-top: 5%;
+  padding: 1% 2%;
+}
+#button3 {
+  margin-top: 5%;
+  padding: 1% 2%;
+}
+.bloque1 {
+  color: black;
+  background: white;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.fondo {
+  background: white;
+  width: 80%;
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.saludo {
+  background: white;
+  margin-top: 80px;
+  text-align: center;
+}
+.mensaje {
+  font-size: 30px;
+  text-align: center;
+  background: white;
+  width: 80%;
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
